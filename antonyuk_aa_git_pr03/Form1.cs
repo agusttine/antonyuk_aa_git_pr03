@@ -16,5 +16,10 @@ namespace antonyuk_aa_git_pr03
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show($"{DateTime.Now}");
+        }
     }
 }
